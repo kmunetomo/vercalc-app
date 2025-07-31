@@ -1,0 +1,352 @@
+{
+  "manufacturer": "KANEKA",
+  "product_series": [
+    "iED-0100",
+    "iED-0120",
+    "iED14"
+  ],
+  "total_coils": 31,
+  "coils": [
+    {
+      "id": 280,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 1.0,
+      "length": 1.0,
+      "volume": 0.507,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 281,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 1.0,
+      "length": 2.0,
+      "volume": 1.013,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 282,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 1.0,
+      "length": 3.0,
+      "volume": 1.52,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 283,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 1.5,
+      "length": 2.0,
+      "volume": 1.013,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 284,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 1.5,
+      "length": 3.0,
+      "volume": 1.52,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 285,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 1.5,
+      "length": 4.0,
+      "volume": 2.027,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 286,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 2.0,
+      "length": 2.0,
+      "volume": 1.013,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 287,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 2.0,
+      "length": 3.0,
+      "volume": 1.52,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 288,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 2.0,
+      "length": 4.0,
+      "volume": 2.027,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 289,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 2.0,
+      "length": 8.0,
+      "volume": 4.054,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 290,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 2.5,
+      "length": 4.0,
+      "volume": 2.027,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 291,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 3.0,
+      "length": 4.0,
+      "volume": 2.027,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 278,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_ExSoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 3.0,
+      "length": 6.0,
+      "volume": 3.04,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 292,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_SilkySoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 3.0,
+      "length": 6.0,
+      "volume": 3.04,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 279,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Comp_ExSoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 3.5,
+      "length": 8.0,
+      "volume": 4.054,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 267,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Infini_ExSoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 16.0,
+      "length": 10.0,
+      "volume": 5.067,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 268,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Infini_ExSoft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 16.0,
+      "length": 15.0,
+      "volume": 7.601,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 265,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Infini_Soft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 16.0,
+      "length": 20.0,
+      "volume": 10.134,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 266,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0100",
+      "product_type": "Infini_Soft",
+      "primary_diameter": 0.254,
+      "secondary_diameter": 16.0,
+      "length": 30.0,
+      "volume": 15.201,
+      "min_catheter_size": 0.013
+    },
+    {
+      "id": 269,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "CompInfini_Silkysoft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 3.0,
+      "length": 4.0,
+      "volume": 2.919,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 270,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "CompInfini_Silkysoft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 3.0,
+      "length": 6.0,
+      "volume": 4.378,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 271,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "CompInfini_Silkysoft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 3.0,
+      "length": 10.0,
+      "volume": 7.297,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 274,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "Comp_Soft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 4.0,
+      "length": 8.0,
+      "volume": 5.837,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 275,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "Comp_Soft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 4.0,
+      "length": 10.0,
+      "volume": 7.297,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 276,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "Comp_Soft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 5.0,
+      "length": 10.0,
+      "volume": 7.297,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 272,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "CompInfini_Silkysoft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 5.0,
+      "length": 15.0,
+      "volume": 10.945,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 277,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "Comp_Soft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 5.0,
+      "length": 15.0,
+      "volume": 10.945,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 273,
+      "manufacturer": "KANEKA",
+      "product_series": "iED-0120",
+      "product_type": "CompInfini_Silkysoft",
+      "primary_diameter": 0.3048,
+      "secondary_diameter": 5.0,
+      "length": 20.0,
+      "volume": 14.593,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 262,
+      "manufacturer": "KANEKA",
+      "product_series": "iED14",
+      "product_type": "Infini_Exsoft",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 14.0,
+      "length": 15.0,
+      "volume": 14.897,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 263,
+      "manufacturer": "KANEKA",
+      "product_series": "iED14",
+      "product_type": "Infini_Exsoft",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 14.0,
+      "length": 30.0,
+      "volume": 29.794,
+      "min_catheter_size": 0.0165
+    },
+    {
+      "id": 264,
+      "manufacturer": "KANEKA",
+      "product_series": "iED14",
+      "product_type": "Infini_Soft",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 20.0,
+      "length": 50.0,
+      "volume": 49.657,
+      "min_catheter_size": 0.0165
+    }
+  ]
+}

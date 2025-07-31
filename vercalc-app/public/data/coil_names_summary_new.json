@@ -1,0 +1,908 @@
+{
+  "Avenir(~3mm)": {
+    "manufacturers": [
+      "Wallaby Medical"
+    ],
+    "count": 23,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Wallaby Medical",
+      "coil_name": "Avenir(~3mm)",
+      "primary_diameter_inch": 0.011,
+      "primary_diameter_mm": 0.2794,
+      "secondary_diameter_mm": 1.0,
+      "length_cm": 2.0,
+      "volume_mm3": 1.226,
+      "min_catheter_lumen_inch": 0.017,
+      "is_azur_series": false
+    }
+  },
+  "Avenir(3.5~5mm)": {
+    "manufacturers": [
+      "Wallaby Medical"
+    ],
+    "count": 21,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Wallaby Medical",
+      "coil_name": "Avenir(3.5~5mm)",
+      "primary_diameter_inch": 0.011,
+      "primary_diameter_mm": 0.2794,
+      "secondary_diameter_mm": 3.5,
+      "length_cm": 4.0,
+      "volume_mm3": 2.452,
+      "min_catheter_lumen_inch": 0.017,
+      "is_azur_series": false
+    }
+  },
+  "Avenir(6~15mm)": {
+    "manufacturers": [
+      "Wallaby Medical"
+    ],
+    "count": 26,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Wallaby Medical",
+      "coil_name": "Avenir(6~15mm)",
+      "primary_diameter_inch": 0.011,
+      "primary_diameter_mm": 0.2794,
+      "secondary_diameter_mm": 6.0,
+      "length_cm": 6.0,
+      "volume_mm3": 3.679,
+      "min_catheter_lumen_inch": 0.017,
+      "is_azur_series": false
+    }
+  },
+  "Meganir": {
+    "manufacturers": [
+      "Wallaby Medical"
+    ],
+    "count": 16,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Wallaby Medical",
+      "coil_name": "Meganir",
+      "primary_diameter_inch": 0.0145,
+      "primary_diameter_mm": 0.3683,
+      "secondary_diameter_mm": 6.0,
+      "length_cm": 16.0,
+      "volume_mm3": 17.046,
+      "min_catheter_lumen_inch": 0.017,
+      "is_azur_series": false
+    }
+  },
+  "Embold": {
+    "manufacturers": [
+      "Boston Scientific"
+    ],
+    "count": 16,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Boston Scientific",
+      "coil_name": "Embold",
+      "primary_diameter_inch": 0.015,
+      "primary_diameter_mm": 0.381,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 4.0,
+      "volume_mm3": 4.56,
+      "min_catheter_lumen_inch": 0.021,
+      "is_azur_series": false
+    }
+  },
+  "Interlock35": {
+    "manufacturers": [
+      "Boston Scientific"
+    ],
+    "count": 11,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Boston Scientific",
+      "coil_name": "Interlock35",
+      "primary_diameter_inch": 0.021,
+      "primary_diameter_mm": 0.5334,
+      "secondary_diameter_mm": 4.0,
+      "length_cm": 6.0,
+      "volume_mm3": 13.407,
+      "min_catheter_lumen_inch": 0.038,
+      "is_azur_series": false
+    }
+  },
+  "Interlock18": {
+    "manufacturers": [
+      "Boston Scientific"
+    ],
+    "count": 26,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Boston Scientific",
+      "coil_name": "Interlock18",
+      "primary_diameter_inch": 0.012,
+      "primary_diameter_mm": 0.3048,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 4.0,
+      "volume_mm3": 2.919,
+      "min_catheter_lumen_inch": 0.021,
+      "is_azur_series": false
+    }
+  },
+  "IDC18": {
+    "manufacturers": [
+      "Boston Scientific"
+    ],
+    "count": 17,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Boston Scientific",
+      "coil_name": "IDC18",
+      "primary_diameter_inch": 0.015,
+      "primary_diameter_mm": 0.381,
+      "secondary_diameter_mm": 5.0,
+      "length_cm": 15.0,
+      "volume_mm3": 17.101,
+      "min_catheter_lumen_inch": 0.021,
+      "is_azur_series": false
+    }
+  },
+  "IDC18_soft": {
+    "manufacturers": [
+      "Boston Scientific"
+    ],
+    "count": 8,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Boston Scientific",
+      "coil_name": "IDC18_soft",
+      "primary_diameter_inch": 0.0135,
+      "primary_diameter_mm": 0.3429,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 2.0,
+      "volume_mm3": 1.847,
+      "min_catheter_lumen_inch": 0.021,
+      "is_azur_series": false
+    }
+  },
+  "iED_Infini14": {
+    "manufacturers": [
+      "KANEKA"
+    ],
+    "count": 4,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "KANEKA",
+      "coil_name": "iED_Infini14",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 14.0,
+      "length_cm": 15.0,
+      "volume_mm3": 14.897,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "iED_Infini_Soft": {
+    "manufacturers": [
+      "KANEKA"
+    ],
+    "count": 2,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "KANEKA",
+      "coil_name": "iED_Infini_Soft",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 16.0,
+      "length_cm": 20.0,
+      "volume_mm3": 10.134,
+      "min_catheter_lumen_inch": 0.013,
+      "is_azur_series": false
+    }
+  },
+  "iED_Infini_ExSoft": {
+    "manufacturers": [
+      "KANEKA"
+    ],
+    "count": 2,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "KANEKA",
+      "coil_name": "iED_Infini_ExSoft",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 16.0,
+      "length_cm": 10.0,
+      "volume_mm3": 5.067,
+      "min_catheter_lumen_inch": 0.013,
+      "is_azur_series": false
+    }
+  },
+  "iED_ComplexInfini12": {
+    "manufacturers": [
+      "KANEKA"
+    ],
+    "count": 7,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "KANEKA",
+      "coil_name": "iED_ComplexInfini12",
+      "primary_diameter_inch": 0.012,
+      "primary_diameter_mm": 0.3048,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 4.0,
+      "volume_mm3": 2.919,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "iED_Complex_10": {
+    "manufacturers": [
+      "KANEKA"
+    ],
+    "count": 14,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "KANEKA",
+      "coil_name": "iED_Complex_10",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 1.0,
+      "length_cm": 1.0,
+      "volume_mm3": 0.507,
+      "min_catheter_lumen_inch": 0.013,
+      "is_azur_series": false
+    }
+  },
+  "Ruby": {
+    "manufacturers": [
+      "Penumbra"
+    ],
+    "count": 14,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Penumbra",
+      "coil_name": "Ruby",
+      "primary_diameter_inch": 0.02,
+      "primary_diameter_mm": 0.508,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 15.0,
+      "volume_mm3": 30.402,
+      "min_catheter_lumen_inch": 0.024,
+      "is_azur_series": false
+    }
+  },
+  "POD": {
+    "manufacturers": [
+      "Penumbra"
+    ],
+    "count": 7,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Penumbra",
+      "coil_name": "POD",
+      "primary_diameter_inch": 0.02,
+      "primary_diameter_mm": 0.508,
+      "secondary_diameter_mm": 4.0,
+      "length_cm": 30.0,
+      "volume_mm3": 60.805,
+      "min_catheter_lumen_inch": 0.024,
+      "is_azur_series": false
+    }
+  },
+  "PODPACKING": {
+    "manufacturers": [
+      "Penumbra"
+    ],
+    "count": 5,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Penumbra",
+      "coil_name": "PODPACKING",
+      "primary_diameter_inch": 0.02,
+      "primary_diameter_mm": 0.508,
+      "secondary_diameter_mm": 0.0,
+      "length_cm": 5.0,
+      "volume_mm3": 10.134,
+      "min_catheter_lumen_inch": 0.024,
+      "is_azur_series": false
+    }
+  },
+  "TargetXL_360_soft": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 13,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "TargetXL_360_soft",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 3.0,
+      "volume_mm3": 2.979,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "TargetXL_360_nano": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 9,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "TargetXL_360_nano",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 1.0,
+      "length_cm": 2.0,
+      "volume_mm3": 1.986,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "TargetXL_360_standard": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 12,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "TargetXL_360_standard",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 6.0,
+      "length_cm": 20.0,
+      "volume_mm3": 19.863,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "TargetXL_helical_soft": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 4,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "TargetXL_helical_soft",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 5.0,
+      "length_cm": 15.0,
+      "volume_mm3": 14.897,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "Target_360_standard": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 3,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "Target_360_standard",
+      "primary_diameter_inch": 0.011,
+      "primary_diameter_mm": 0.2794,
+      "secondary_diameter_mm": 4.0,
+      "length_cm": 10.0,
+      "volume_mm3": 6.131,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "Target_360_soft": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 12,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "Target_360_soft",
+      "primary_diameter_inch": 0.0095,
+      "primary_diameter_mm": 0.2413,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 6.0,
+      "volume_mm3": 2.743,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "Target_360_ultra": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 14,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "Target_360_ultra",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 3.0,
+      "volume_mm3": 1.52,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "Target_Helical_ultra": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 9,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "Target_Helical_ultra",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 3.0,
+      "volume_mm3": 1.52,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "Target_Helical_nano": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 8,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "Target_Helical_nano",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 1.0,
+      "length_cm": 2.0,
+      "volume_mm3": 1.013,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "Target_3D": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 4,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "Target_3D",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 6.0,
+      "volume_mm3": 3.04,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "Target_Tetra": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 19,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "Target_Tetra",
+      "primary_diameter_inch": 0.01,
+      "primary_diameter_mm": 0.254,
+      "secondary_diameter_mm": 1.5,
+      "length_cm": 2.0,
+      "volume_mm3": 1.013,
+      "min_catheter_lumen_inch": 0.016,
+      "is_azur_series": false
+    }
+  },
+  "TargetXXL_360": {
+    "manufacturers": [
+      "Stryker"
+    ],
+    "count": 14,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Stryker",
+      "coil_name": "TargetXXL_360",
+      "primary_diameter_inch": 0.017,
+      "primary_diameter_mm": 0.4318,
+      "secondary_diameter_mm": 5.0,
+      "length_cm": 20.0,
+      "volume_mm3": 29.288,
+      "min_catheter_lumen_inch": 0.019,
+      "is_azur_series": false
+    }
+  },
+  "AZUR_soft3D(~4mm)": {
+    "manufacturers": [
+      "TERUMO"
+    ],
+    "count": 11,
+    "is_azur_series": true,
+    "sample_coil": {
+      "manufacturer": "TERUMO",
+      "coil_name": "AZUR_soft3D(~4mm)",
+      "primary_diameter_inch": 0.012,
+      "primary_diameter_mm": 0.3048,
+      "secondary_diameter_mm": 1.0,
+      "length_cm": 3.0,
+      "volume_mm3": 2.189,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": true,
+      "azur_primary_diameter_inch": 0.013,
+      "azur_primary_diameter_mm": 0.3302,
+      "azur_volume_mm3": 2.569,
+      "swelling_ratio": 1.1735952489721333
+    }
+  },
+  "AZUR_soft3D(5mm~)": {
+    "manufacturers": [
+      "TERUMO"
+    ],
+    "count": 10,
+    "is_azur_series": true,
+    "sample_coil": {
+      "manufacturer": "TERUMO",
+      "coil_name": "AZUR_soft3D(5mm~)",
+      "primary_diameter_inch": 0.0135,
+      "primary_diameter_mm": 0.3429,
+      "secondary_diameter_mm": 5.0,
+      "length_cm": 10.0,
+      "volume_mm3": 9.235,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": true,
+      "azur_primary_diameter_inch": 0.0135,
+      "azur_primary_diameter_mm": 0.3429,
+      "azur_volume_mm3": 9.235,
+      "swelling_ratio": 1.0
+    }
+  },
+  "AZUR_CX18": {
+    "manufacturers": [
+      "TERUMO"
+    ],
+    "count": 15,
+    "is_azur_series": true,
+    "sample_coil": {
+      "manufacturer": "TERUMO",
+      "coil_name": "AZUR_CX18",
+      "primary_diameter_inch": 0.0145,
+      "primary_diameter_mm": 0.3683,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 2.0,
+      "volume_mm3": 2.131,
+      "min_catheter_lumen_inch": 0.019,
+      "is_azur_series": true,
+      "azur_primary_diameter_inch": 0.0145,
+      "azur_primary_diameter_mm": 0.3683,
+      "azur_volume_mm3": 2.131,
+      "swelling_ratio": 1.0
+    }
+  },
+  "AZUR_CX35": {
+    "manufacturers": [
+      "TERUMO"
+    ],
+    "count": 8,
+    "is_azur_series": true,
+    "sample_coil": {
+      "manufacturer": "TERUMO",
+      "coil_name": "AZUR_CX35",
+      "primary_diameter_inch": 0.029,
+      "primary_diameter_mm": 0.7366,
+      "secondary_diameter_mm": 4.0,
+      "length_cm": 7.0,
+      "volume_mm3": 29.83,
+      "min_catheter_lumen_inch": 0.041,
+      "is_azur_series": true,
+      "azur_primary_diameter_inch": 0.029,
+      "azur_primary_diameter_mm": 0.7366,
+      "azur_volume_mm3": 29.83,
+      "swelling_ratio": 1.0
+    }
+  },
+  "AZUR18": {
+    "manufacturers": [
+      "TERUMO"
+    ],
+    "count": 16,
+    "is_azur_series": true,
+    "sample_coil": {
+      "manufacturer": "TERUMO",
+      "coil_name": "AZUR18",
+      "primary_diameter_inch": 0.0145,
+      "primary_diameter_mm": 0.3683,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 2.0,
+      "volume_mm3": 2.131,
+      "min_catheter_lumen_inch": 0.021,
+      "is_azur_series": true,
+      "azur_primary_diameter_inch": 0.032,
+      "azur_primary_diameter_mm": 0.8128,
+      "azur_volume_mm3": 10.377,
+      "swelling_ratio": 4.8695448146410145
+    }
+  },
+  "AZUR35": {
+    "manufacturers": [
+      "TERUMO"
+    ],
+    "count": 13,
+    "is_azur_series": true,
+    "sample_coil": {
+      "manufacturer": "TERUMO",
+      "coil_name": "AZUR35",
+      "primary_diameter_inch": 0.031,
+      "primary_diameter_mm": 0.7874,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 5.0,
+      "volume_mm3": 24.347,
+      "min_catheter_lumen_inch": 0.038,
+      "is_azur_series": true,
+      "azur_primary_diameter_inch": 0.048,
+      "azur_primary_diameter_mm": 1.2192,
+      "azur_volume_mm3": 58.373,
+      "swelling_ratio": 2.397543845237606
+    }
+  },
+  "MICRUSFRAME S": {
+    "manufacturers": [
+      "CERENOVUS"
+    ],
+    "count": 18,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "CERENOVUS",
+      "coil_name": "MICRUSFRAME S",
+      "primary_diameter_inch": 0.015,
+      "primary_diameter_mm": 0.381,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 5.4,
+      "volume_mm3": 6.156,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "MICRUSFRAME C": {
+    "manufacturers": [
+      "CERENOVUS"
+    ],
+    "count": 8,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "CERENOVUS",
+      "coil_name": "MICRUSFRAME C",
+      "primary_diameter_inch": 0.0135,
+      "primary_diameter_mm": 0.3429,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 6.0,
+      "volume_mm3": 5.541,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "GALAXY G3": {
+    "manufacturers": [
+      "CERENOVUS"
+    ],
+    "count": 12,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "CERENOVUS",
+      "coil_name": "GALAXY G3",
+      "primary_diameter_inch": 0.012,
+      "primary_diameter_mm": 0.3048,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 8.0,
+      "volume_mm3": 5.837,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "GALAXY G3_XSFT": {
+    "manufacturers": [
+      "CERENOVUS"
+    ],
+    "count": 12,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "CERENOVUS",
+      "coil_name": "GALAXY G3_XSFT",
+      "primary_diameter_inch": 0.012,
+      "primary_diameter_mm": 0.3048,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 2.0,
+      "volume_mm3": 1.459,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "GALAXY G3_MINI": {
+    "manufacturers": [
+      "CERENOVUS"
+    ],
+    "count": 16,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "CERENOVUS",
+      "coil_name": "GALAXY G3_MINI",
+      "primary_diameter_inch": 0.009,
+      "primary_diameter_mm": 0.2286,
+      "secondary_diameter_mm": 1.0,
+      "length_cm": 1.0,
+      "volume_mm3": 0.41,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "DELTAFILL": {
+    "manufacturers": [
+      "CERENOVUS"
+    ],
+    "count": 15,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "CERENOVUS",
+      "coil_name": "DELTAFILL",
+      "primary_diameter_inch": 0.015,
+      "primary_diameter_mm": 0.381,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 12.0,
+      "volume_mm3": 13.681,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "DELTA_XSFT": {
+    "manufacturers": [
+      "CERENOVUS"
+    ],
+    "count": 9,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "CERENOVUS",
+      "coil_name": "DELTA_XSFT",
+      "primary_diameter_inch": 0.0096,
+      "primary_diameter_mm": 0.24384,
+      "secondary_diameter_mm": 1.5,
+      "length_cm": 2.0,
+      "volume_mm3": 0.934,
+      "min_catheter_lumen_inch": 0.0165,
+      "is_azur_series": false
+    }
+  },
+  "Tornado18": {
+    "manufacturers": [
+      "Cook"
+    ],
+    "count": 6,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Cook",
+      "coil_name": "Tornado18",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 2.0,
+      "volume_mm3": 1.986,
+      "min_catheter_lumen_inch": 0.018,
+      "is_azur_series": false
+    }
+  },
+  "Tornado35": {
+    "manufacturers": [
+      "Cook"
+    ],
+    "count": 5,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Cook",
+      "coil_name": "Tornado35",
+      "primary_diameter_inch": 0.021,
+      "primary_diameter_mm": 0.5334,
+      "secondary_diameter_mm": 4.0,
+      "length_cm": 2.6,
+      "volume_mm3": 5.81,
+      "min_catheter_lumen_inch": 0.035,
+      "is_azur_series": false
+    }
+  },
+  "Nester18": {
+    "manufacturers": [
+      "Cook"
+    ],
+    "count": 3,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Cook",
+      "coil_name": "Nester18",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 4.0,
+      "length_cm": 14.0,
+      "volume_mm3": 13.904,
+      "min_catheter_lumen_inch": 0.018,
+      "is_azur_series": false
+    }
+  },
+  "Nester35": {
+    "manufacturers": [
+      "Cook"
+    ],
+    "count": 7,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Cook",
+      "coil_name": "Nester35",
+      "primary_diameter_inch": 0.021,
+      "primary_diameter_mm": 0.5334,
+      "secondary_diameter_mm": 8.0,
+      "length_cm": 20.0,
+      "volume_mm3": 44.692,
+      "min_catheter_lumen_inch": 0.035,
+      "is_azur_series": false
+    }
+  },
+  "Hilal": {
+    "manufacturers": [
+      "Cook"
+    ],
+    "count": 4,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Cook",
+      "coil_name": "Hilal",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 0.0,
+      "length_cm": 0.5,
+      "volume_mm3": 0.497,
+      "min_catheter_lumen_inch": 0.018,
+      "is_azur_series": false
+    }
+  },
+  "C-stopper16": {
+    "manufacturers": [
+      "Piolax"
+    ],
+    "count": 6,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Piolax",
+      "coil_name": "C-stopper16",
+      "primary_diameter_inch": 0.016,
+      "primary_diameter_mm": 0.4064,
+      "secondary_diameter_mm": 3.0,
+      "length_cm": 18.0,
+      "volume_mm3": 23.349,
+      "min_catheter_lumen_inch": 0.02,
+      "is_azur_series": false
+    }
+  },
+  "C-stopper14": {
+    "manufacturers": [
+      "Piolax"
+    ],
+    "count": 4,
+    "is_azur_series": false,
+    "sample_coil": {
+      "manufacturer": "Piolax",
+      "coil_name": "C-stopper14",
+      "primary_diameter_inch": 0.014,
+      "primary_diameter_mm": 0.3556,
+      "secondary_diameter_mm": 2.0,
+      "length_cm": 1.5,
+      "volume_mm3": 1.49,
+      "min_catheter_lumen_inch": 0.02,
+      "is_azur_series": false
+    }
+  }
+}

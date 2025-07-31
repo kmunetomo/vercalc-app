@@ -1,0 +1,120 @@
+{
+  "manufacturer": "Piolax",
+  "product_series": [
+    "C-stopper-0140",
+    "C-stopper-0160"
+  ],
+  "total_coils": 10,
+  "coils": [
+    {
+      "id": 638,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0140",
+      "product_type": "Filling14",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 2.0,
+      "length": 1.5,
+      "volume": 1.49,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 639,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0140",
+      "product_type": "Filling14",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 2.0,
+      "length": 3.0,
+      "volume": 2.979,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 640,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0140",
+      "product_type": "Filling14",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 2.0,
+      "length": 6.0,
+      "volume": 5.959,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 641,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0140",
+      "product_type": "Filling14",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 2.8,
+      "length": 10.0,
+      "volume": 9.931,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 633,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0160",
+      "product_type": "Filling16",
+      "primary_diameter": 0.4064,
+      "secondary_diameter": 2.3,
+      "length": 3.0,
+      "volume": 3.892,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 634,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0160",
+      "product_type": "Filling16",
+      "primary_diameter": 0.4064,
+      "secondary_diameter": 2.3,
+      "length": 6.0,
+      "volume": 7.783,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 635,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0160",
+      "product_type": "Filling16",
+      "primary_diameter": 0.4064,
+      "secondary_diameter": 3.0,
+      "length": 10.0,
+      "volume": 12.972,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 636,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0160",
+      "product_type": "Filling16",
+      "primary_diameter": 0.4064,
+      "secondary_diameter": 3.0,
+      "length": 14.0,
+      "volume": 18.16,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 632,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0160",
+      "product_type": "Anchor",
+      "primary_diameter": 0.4064,
+      "secondary_diameter": 3.0,
+      "length": 18.0,
+      "volume": 23.349,
+      "min_catheter_size": 0.02
+    },
+    {
+      "id": 637,
+      "manufacturer": "Piolax",
+      "product_series": "C-stopper-0160",
+      "product_type": "Filling16",
+      "primary_diameter": 0.4064,
+      "secondary_diameter": 3.0,
+      "length": 18.0,
+      "volume": 23.349,
+      "min_catheter_size": 0.02
+    }
+  ]
+}
