@@ -33,8 +33,7 @@ export default function Home() {
   const addCoil = (coil: Omit<SelectedCoil, 'quantity' | 'order'>) => {
     const existingCoilIndex = selectedCoils.findIndex(
       (c) => c.id === coil.id && 
-              c.product_series === coil.product_series && 
-              c.product_type === coil.product_type
+              c.coil_name === coil.coil_name
     )
 
     if (existingCoilIndex >= 0) {
