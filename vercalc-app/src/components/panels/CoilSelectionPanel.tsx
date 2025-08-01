@@ -188,7 +188,7 @@ export default function CoilSelectionPanel({ onAddCoil, aneurysmVolume }: CoilSe
   useEffect(() => {
     const loadManufacturers = async () => {
       try {
-        const response = await fetch('/data/master_coil_database_new.json')
+        const response = await fetch('/coils/master_coil_database_new.json?v=' + Date.now())
         const data: CoilData[] = await response.json()
         // ユニークなメーカー一覧を抽出してアルファベット順でソート
         const uniqueManufacturers = [...new Set(data.map(coil => coil.manufacturer))]
@@ -212,7 +212,7 @@ export default function CoilSelectionPanel({ onAddCoil, aneurysmVolume }: CoilSe
           const filename = selectedManufacturer.toLowerCase().replace(/\s+/g, '_') + '_new'
           console.log('Loading manufacturer data:', filename)
           
-          const response = await fetch(`/data/${filename}.json`)
+          const response = await fetch(`/coils/${filename}.json?v=` + Date.now())
           
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`)
