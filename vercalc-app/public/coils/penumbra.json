@@ -1,0 +1,297 @@
+{
+  "manufacturer": "Penumbra",
+  "total_coils": 26,
+  "product_series": [
+    "PODPACKING",
+    "Ruby",
+    "POD"
+  ],
+  "coils": [
+    {
+      "id": 307,
+      "manufacturer": "Penumbra",
+      "product_series": "POD",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 4.0,
+      "length": 30.0,
+      "volume": 60.805,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 308,
+      "manufacturer": "Penumbra",
+      "product_series": "POD",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 5.0,
+      "length": 30.0,
+      "volume": 60.805,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 309,
+      "manufacturer": "Penumbra",
+      "product_series": "POD",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 6.0,
+      "length": 50.0,
+      "volume": 101.341,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 310,
+      "manufacturer": "Penumbra",
+      "product_series": "POD",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 8.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 311,
+      "manufacturer": "Penumbra",
+      "product_series": "POD",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 10.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 312,
+      "manufacturer": "Penumbra",
+      "product_series": "POD",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 12.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 313,
+      "manufacturer": "Penumbra",
+      "product_series": "POD",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 14.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 314,
+      "manufacturer": "Penumbra",
+      "product_series": "PODPACKING",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 0.0,
+      "length": 5.0,
+      "volume": 10.134,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 315,
+      "manufacturer": "Penumbra",
+      "product_series": "PODPACKING",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 0.0,
+      "length": 15.0,
+      "volume": 30.402,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 316,
+      "manufacturer": "Penumbra",
+      "product_series": "PODPACKING",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 0.0,
+      "length": 30.0,
+      "volume": 60.805,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 317,
+      "manufacturer": "Penumbra",
+      "product_series": "PODPACKING",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 0.0,
+      "length": 45.0,
+      "volume": 91.207,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 318,
+      "manufacturer": "Penumbra",
+      "product_series": "PODPACKING",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 0.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 293,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 3.0,
+      "length": 15.0,
+      "volume": 30.402,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 294,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 4.0,
+      "length": 15.0,
+      "volume": 30.402,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 295,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 6.0,
+      "length": 30.0,
+      "volume": 60.805,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 296,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 8.0,
+      "length": 35.0,
+      "volume": 70.939,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 297,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 10.0,
+      "length": 35.0,
+      "volume": 70.939,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 298,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 12.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 299,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 14.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 300,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 16.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 301,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 18.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 302,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 20.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 303,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 24.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 304,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 28.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 305,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 36.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    },
+    {
+      "id": 306,
+      "manufacturer": "Penumbra",
+      "product_series": "Ruby",
+      "product_type": "standard",
+      "primary_diameter": 0.508,
+      "secondary_diameter": 40.0,
+      "length": 60.0,
+      "volume": 121.61,
+      "min_catheter_size": 0.024
+    }
+  ]
+}

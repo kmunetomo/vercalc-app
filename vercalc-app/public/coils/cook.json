@@ -1,0 +1,333 @@
+{
+  "manufacturer": "Cook",
+  "total_coils": 29,
+  "product_series": [
+    "Nester35",
+    "Hilal",
+    "Tornado18r",
+    "Tornado18",
+    "Nester18",
+    "Tornado35"
+  ],
+  "coils": [
+    {
+      "id": 628,
+      "manufacturer": "Cook",
+      "product_series": "Hilal",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 0.0,
+      "length": 0.5,
+      "volume": 0.497,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 629,
+      "manufacturer": "Cook",
+      "product_series": "Hilal",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 0.0,
+      "length": 1.0,
+      "volume": 0.993,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 630,
+      "manufacturer": "Cook",
+      "product_series": "Hilal",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 2.0,
+      "length": 2.0,
+      "volume": 1.986,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 631,
+      "manufacturer": "Cook",
+      "product_series": "Hilal",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 3.0,
+      "length": 1.0,
+      "volume": 0.993,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 618,
+      "manufacturer": "Cook",
+      "product_series": "Nester18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 4.0,
+      "length": 14.0,
+      "volume": 13.904,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 619,
+      "manufacturer": "Cook",
+      "product_series": "Nester18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 6.0,
+      "length": 14.0,
+      "volume": 13.904,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 620,
+      "manufacturer": "Cook",
+      "product_series": "Nester18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 8.0,
+      "length": 14.0,
+      "volume": 13.904,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 621,
+      "manufacturer": "Cook",
+      "product_series": "Nester35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 8.0,
+      "length": 20.0,
+      "volume": 44.692,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 622,
+      "manufacturer": "Cook",
+      "product_series": "Nester35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 10.0,
+      "length": 20.0,
+      "volume": 44.692,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 623,
+      "manufacturer": "Cook",
+      "product_series": "Nester35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 12.0,
+      "length": 20.0,
+      "volume": 44.692,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 624,
+      "manufacturer": "Cook",
+      "product_series": "Nester35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 14.0,
+      "length": 20.0,
+      "volume": 44.692,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 625,
+      "manufacturer": "Cook",
+      "product_series": "Nester35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 16.0,
+      "length": 20.0,
+      "volume": 44.692,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 626,
+      "manufacturer": "Cook",
+      "product_series": "Nester35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 18.0,
+      "length": 20.0,
+      "volume": 44.692,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 627,
+      "manufacturer": "Cook",
+      "product_series": "Nester35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 20.0,
+      "length": 20.0,
+      "volume": 44.692,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 603,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 3.0,
+      "length": 2.0,
+      "volume": 1.986,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 604,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 4.0,
+      "length": 4.0,
+      "volume": 3.973,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 605,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 5.0,
+      "length": 5.0,
+      "volume": 4.966,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 606,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 6.0,
+      "length": 7.0,
+      "volume": 6.952,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 607,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 8.0,
+      "length": 9.5,
+      "volume": 9.435,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 608,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 10.0,
+      "length": 14.2,
+      "volume": 14.103,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 609,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18r",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 3.0,
+      "length": 2.0,
+      "volume": 1.986,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 610,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18r",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 4.0,
+      "length": 4.0,
+      "volume": 3.973,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 611,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18r",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 5.0,
+      "length": 5.0,
+      "volume": 4.966,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 612,
+      "manufacturer": "Cook",
+      "product_series": "Tornado18r",
+      "product_type": "standard",
+      "primary_diameter": 0.3556,
+      "secondary_diameter": 6.0,
+      "length": 7.0,
+      "volume": 6.952,
+      "min_catheter_size": 0.018
+    },
+    {
+      "id": 613,
+      "manufacturer": "Cook",
+      "product_series": "Tornado35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 4.0,
+      "length": 2.6,
+      "volume": 5.81,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 614,
+      "manufacturer": "Cook",
+      "product_series": "Tornado35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 5.0,
+      "length": 4.1,
+      "volume": 9.162,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 615,
+      "manufacturer": "Cook",
+      "product_series": "Tornado35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 6.0,
+      "length": 5.8,
+      "volume": 12.961,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 616,
+      "manufacturer": "Cook",
+      "product_series": "Tornado35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 8.0,
+      "length": 8.0,
+      "volume": 17.877,
+      "min_catheter_size": 0.035
+    },
+    {
+      "id": 617,
+      "manufacturer": "Cook",
+      "product_series": "Tornado35",
+      "product_type": "standard",
+      "primary_diameter": 0.5334,
+      "secondary_diameter": 10.0,
+      "length": 12.5,
+      "volume": 27.932,
+      "min_catheter_size": 0.035
+    }
+  ]
+}
