@@ -31,12 +31,7 @@ interface CoilData {
   jitteredLength?: number
 }
 
-interface ManufacturerData {
-  manufacturer: string
-  total_coils: number
-  coil_names: string[]
-  coils: CoilData[]
-}
+
 
 interface CoilSelectionPanelProps {
   onAddCoil: (coil: Omit<CoilData, 'quantity' | 'order'>) => void
