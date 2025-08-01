@@ -29,7 +29,7 @@ export default function Home() {
   const [selectedCoils, setSelectedCoils] = useState<SelectedCoil[]>([])
   const [aneurysmVolume, setAneurysmVolume] = useState<number>(0)
 
-  // コイルを追加する関数
+  // コイルを追加する関数 - TypeScriptエラー修正済み
   const addCoil = (coil: Omit<SelectedCoil, 'quantity' | 'order'>) => {
     const existingCoilIndex = selectedCoils.findIndex(
       (c) => c.id === coil.id && 
