@@ -27,7 +27,7 @@
 
 ## 技術仕様
 
-- Next.js 14+
+- Next.js 15.4.4
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
@@ -43,3 +43,7 @@ npm run dev
 ## ライセンス
 
 MIT License
+
+## 更新履歴
+
+- 2024年8月1日: KANEKAコイルデータ修正、TypeScriptエラー修正
