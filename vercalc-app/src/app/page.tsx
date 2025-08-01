@@ -33,7 +33,8 @@ export default function Home() {
   const addCoil = (coil: Omit<SelectedCoil, 'quantity' | 'order'>) => {
     const existingCoilIndex = selectedCoils.findIndex(
       (c) => c.id === coil.id && 
-              c.coil_name === coil.coil_name
+              c.product_series === coil.product_series && 
+              c.product_type === coil.product_type
     )
 
     if (existingCoilIndex >= 0) {
@@ -81,6 +82,17 @@ export default function Home() {
             </div>
         </div>
       </main>
+      
+      {/* 免責事項 */}
+      <footer className="bg-gray-50 border-t mt-8 py-4 px-6">
+        <div className="max-w-7xl mx-auto text-xs text-gray-600">
+          <p className="text-center">
+            <strong>免責事項:</strong> このアプリケーションは医療機器選択の参考資料として提供されています。
+            実際の医療機器の選択・使用については、必ず医師の判断に従ってください。
+            計算結果の正確性については保証いたしません。
+          </p>
+        </div>
+      </footer>
     </div>
   )
 }
