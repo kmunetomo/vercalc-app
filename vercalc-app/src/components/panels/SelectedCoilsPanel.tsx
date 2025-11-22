@@ -46,6 +46,11 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
     return coil.is_azur_series && coil.azur_volume_mm3 ? coil.azur_volume_mm3 : coil.volume_mm3
   }, [])
 
+  // 表示用のコイルリストを計算（使用順にソート）
+  const displayCoils = useCallback(() => {
+    return [...selectedCoils].sort((a, b) => a.order - b.order)
+  }, [selectedCoils])
+
   // VER計算（膨潤前後両方を計算）
   useEffect(() => {
     // 膨潤後体積とVER（実際の塞栓効果）
@@ -74,23 +79,41 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
     }
   }, [selectedCoils, aneurysmVolume, getEffectiveVolume])
 
-  const updateQuantity = (index: number, change: number) => {
-    const updatedCoils = [...selectedCoils]
-    const newQuantity = updatedCoils[index].quantity + change
+  const updateQuantity = (displayIndex: number, change: number) => {
+    const coilsToDisplay = displayCoils()
+    const targetCoil = coilsToDisplay[displayIndex]
     
-    if (newQuantity <= 0) {
-      // 数量が0以下になったら削除
-      updatedCoils.splice(index, 1)
-    } else {
-      updatedCoils[index].quantity = newQuantity
+    // 該当するエントリの数量を変更
+    const actualIndex = selectedCoils.findIndex(
+      c => c.id === targetCoil.id && c.order === targetCoil.order
+    )
+    
+    if (actualIndex >= 0) {
+      const updatedCoils = [...selectedCoils]
+      const newQuantity = updatedCoils[actualIndex].quantity + change
+      
+      if (newQuantity <= 0) {
+        updatedCoils.splice(actualIndex, 1)
+      } else {
+        updatedCoils[actualIndex].quantity = newQuantity
+      }
+      setSelectedCoils(updatedCoils)
     }
-    
-    setSelectedCoils(updatedCoils)
   }
 
-  const removeCoil = (index: number) => {
-    const updatedCoils = selectedCoils.filter((_, i) => i !== index)
-    setSelectedCoils(updatedCoils)
+  const removeCoil = (displayIndex: number) => {
+    const coilsToDisplay = displayCoils()
+    const targetCoil = coilsToDisplay[displayIndex]
+    
+    // 該当するエントリのみ削除
+    const actualIndex = selectedCoils.findIndex(
+      c => c.id === targetCoil.id && c.order === targetCoil.order
+    )
+    
+    if (actualIndex >= 0) {
+      const updatedCoils = selectedCoils.filter((_, i) => i !== actualIndex)
+      setSelectedCoils(updatedCoils)
+    }
   }
 
   const clearAll = () => {
@@ -330,7 +353,7 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
         {/* コイル一覧 */}
         <div className="flex-1 flex flex-col space-y-2 min-h-0">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-medium">選択済みコイル</span>
+            <span className="text-sm font-medium">選択済みコイル（使用順）</span>
             {selectedCoils.length > 0 && (
               <Badge variant="secondary">{selectedCoils.length}</Badge>
             )}
@@ -343,20 +366,25 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
             </div>
           ) : (
             <div className="flex-1 min-h-0 overflow-y-auto space-y-1">
-              {selectedCoils.map((coil, index) => (
-                <div key={`${coil.id}-${index}`} className="border rounded p-1.5">
+              {displayCoils().map((coil, index) => (
+                <div key={`${coil.id}-${coil.order}-${index}`} className="border rounded p-1.5">
                   <div className="flex items-center justify-between mb-1">
-                    <div className="text-xs font-medium truncate">
-                      {coil.coil_name}
-                      {coil.is_azur_series && (
-                        <Badge variant="secondary" className="ml-1 text-xs">膨潤</Badge>
-                      )}
+                    <div className="flex items-center gap-1 flex-1 min-w-0">
+                      <Badge variant="outline" className="text-xs shrink-0">
+                        #{coil.order}
+                      </Badge>
+                      <div className="text-xs font-medium truncate">
+                        {coil.coil_name}
+                        {coil.is_azur_series && (
+                          <Badge variant="secondary" className="ml-1 text-xs">膨潤</Badge>
+                        )}
+                      </div>
                     </div>
                     <Button
                       variant="ghost"
                       size="sm"
                       onClick={() => removeCoil(index)}
-                      className="h-5 w-5 p-0 text-red-500 hover:text-red-700"
+                      className="h-5 w-5 p-0 text-red-500 hover:text-red-700 shrink-0"
                     >
                       <Trash2 className="h-2.5 w-2.5" />
                     </Button>
@@ -366,42 +394,19 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
                     {coil.secondary_diameter_mm}mm × {coil.length_cm}cm
                   </div>
                   
-                  <div className="flex items-center justify-between">
-                    <div className="text-xs text-muted-foreground">
-                      {coil.is_azur_series && coil.azur_volume_mm3 ? (
-                        <div>
-                          <div>膨潤前: {coil.volume_mm3.toFixed(1)}mm³</div>
-                          <div className="text-blue-600">
-                            膨潤後: {coil.azur_volume_mm3.toFixed(1)}mm³ × {coil.quantity} = {(coil.azur_volume_mm3 * coil.quantity).toFixed(1)}mm³
-                          </div>
+                  <div className="text-xs text-muted-foreground">
+                    {coil.is_azur_series && coil.azur_volume_mm3 ? (
+                      <div>
+                        <div>膨潤前: {coil.volume_mm3.toFixed(1)}mm³</div>
+                        <div className="text-blue-600">
+                          膨潤後: {coil.azur_volume_mm3.toFixed(1)}mm³
                         </div>
-                      ) : (
-                        <div>
-                          {coil.volume_mm3.toFixed(1)}mm³ × {coil.quantity} = {(coil.volume_mm3 * coil.quantity).toFixed(1)}mm³
-                        </div>
-                      )}
-                    </div>
-                    <div className="flex items-center space-x-0.5">
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={() => updateQuantity(index, -1)}
-                        className="h-5 w-5 p-0"
-                      >
-                        <Minus className="h-2.5 w-2.5" />
-                      </Button>
-                      <span className="text-xs font-medium w-6 text-center">
-                        {coil.quantity}
-                      </span>
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        onClick={() => updateQuantity(index, 1)}
-                        className="h-5 w-5 p-0"
-                      >
-                        <Plus className="h-2.5 w-2.5" />
-                      </Button>
-                    </div>
+                      </div>
+                    ) : (
+                      <div>
+                        {coil.volume_mm3.toFixed(1)}mm³
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}

@@ -29,27 +29,20 @@ export default function Home() {
   const [selectedCoils, setSelectedCoils] = useState<SelectedCoil[]>([])
   const [aneurysmVolume, setAneurysmVolume] = useState<number>(0)
 
-  // コイルを追加する関数 - TypeScriptエラー修正済み
+  // コイルを追加する関数 - 使用順序を保持するため常に新規エントリとして追加
   const addCoil = (coil: Omit<SelectedCoil, 'quantity' | 'order'>) => {
-    const existingCoilIndex = selectedCoils.findIndex(
-      (c) => c.id === coil.id && 
-              c.coil_name === coil.coil_name
-    )
-
-    if (existingCoilIndex >= 0) {
-      // 既存のコイルの数量を増やす
-      const updatedCoils = [...selectedCoils]
-      updatedCoils[existingCoilIndex].quantity += 1
-      setSelectedCoils(updatedCoils)
-    } else {
-      // 新しいコイルを追加
-      const newCoil: SelectedCoil = {
-        ...coil,
-        quantity: 1,
-        order: selectedCoils.length + 1
-      }
-      setSelectedCoils([...selectedCoils, newCoil])
+    // 次のorder番号を計算（最大値+1）
+    const nextOrder = selectedCoils.length > 0 
+      ? Math.max(...selectedCoils.map(c => c.order)) + 1 
+      : 1
+    
+    // 常に新しいエントリとして追加（使用順序を保持）
+    const newCoil: SelectedCoil = {
+      ...coil,
+      quantity: 1,
+      order: nextOrder
     }
+    setSelectedCoils([...selectedCoils, newCoil])
   }
   return (
     <div className="min-h-screen bg-background">
