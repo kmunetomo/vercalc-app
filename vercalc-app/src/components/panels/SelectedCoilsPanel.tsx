@@ -123,59 +123,51 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
   const exportData = () => {
     // CSVヘッダー
     const headers = [
+      '使用順',
       'メーカー',
       'コイル名',
       '一次径(mm)',
       '二次径(mm)',
       '長さ(cm)',
       '体積(mm³)',
-      '本数',
-      '小計(mm³)',
       'AZUR膨潤後体積(mm³)',
-      'AZUR膨潤後小計(mm³)',
       '備考'
     ]
     
-    // CSVデータ行
-    const csvRows = selectedCoils.map(coil => [
+    // CSVデータ行（使用順にソート）
+    const csvRows = displayCoils().map(coil => [
+      coil.order.toString(),
       coil.manufacturer,
       coil.coil_name,
       coil.primary_diameter_mm.toFixed(3),
       coil.secondary_diameter_mm.toFixed(1),
       coil.length_cm.toFixed(1),
       coil.volume_mm3.toFixed(1),
-      coil.quantity.toString(),
-      (coil.volume_mm3 * coil.quantity).toFixed(1),
       coil.is_azur_series && coil.azur_volume_mm3 ? coil.azur_volume_mm3.toFixed(1) : '',
-      coil.is_azur_series && coil.azur_volume_mm3 ? (coil.azur_volume_mm3 * coil.quantity).toFixed(1) : '',
       coil.is_azur_series ? 'AZUR膨潤コイル' : ''
     ])
     
     // サマリー行を追加
     if (selectedCoils.length > 0) {
-      csvRows.push(['', '', '', '', '', '', '', '', '', '', '']) // 空行
+      csvRows.push(['', '', '', '', '', '', '', '', '']) // 空行
       csvRows.push([
+        '',
         '合計',
+        `${selectedCoils.length}本`,
         '',
         '',
         '',
-        '',
-        '',
-        selectedCoils.reduce((sum, coil) => sum + coil.quantity, 0).toString(),
         totalPreSwellingVolume.toFixed(1),
-        '',
         totalCoilVolume.toFixed(1),
         hasAzurSeries ? 'AZUR膨潤コイル含む' : ''
       ])
       
       if (aneurysmVolume > 0) {
-        csvRows.push(['', '', '', '', '', '', '', '', '', '', '']) // 空行
+        csvRows.push(['', '', '', '', '', '', '', '', '']) // 空行
         csvRows.push([
+          '',
           '動脈瘤体積',
           `${aneurysmVolume.toFixed(1)} mm³`,
-          '',
-          '',
-          '',
           '',
           '',
           '',
@@ -184,11 +176,9 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
           ''
         ])
         csvRows.push([
+          '',
           'VER',
           `${currentVER.toFixed(1)}%`,
-          '',
-          '',
-          '',
           '',
           '',
           '',
