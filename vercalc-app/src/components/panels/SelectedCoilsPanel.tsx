@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
-import { Trash2, Download, Plus, Minus } from 'lucide-react'
+import { Trash2, Download } from 'lucide-react'
 
 // 使用コイルの型定義
 interface SelectedCoil {
@@ -78,28 +78,6 @@ export default function SelectedCoilsPanel({ selectedCoils, setSelectedCoils, an
       setPreSwellingVER(preSwellingVER)
     }
   }, [selectedCoils, aneurysmVolume, getEffectiveVolume])
-
-  const updateQuantity = (displayIndex: number, change: number) => {
-    const coilsToDisplay = displayCoils()
-    const targetCoil = coilsToDisplay[displayIndex]
-    
-    // 該当するエントリの数量を変更
-    const actualIndex = selectedCoils.findIndex(
-      c => c.id === targetCoil.id && c.order === targetCoil.order
-    )
-    
-    if (actualIndex >= 0) {
-      const updatedCoils = [...selectedCoils]
-      const newQuantity = updatedCoils[actualIndex].quantity + change
-      
-      if (newQuantity <= 0) {
-        updatedCoils.splice(actualIndex, 1)
-      } else {
-        updatedCoils[actualIndex].quantity = newQuantity
-      }
-      setSelectedCoils(updatedCoils)
-    }
-  }
 
   const removeCoil = (displayIndex: number) => {
     const coilsToDisplay = displayCoils()
